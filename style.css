@@ -1,0 +1,73 @@
+/* reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* tipo de letra */
+@font-face {
+  font-family: "bloody";
+  src: url("./fonts/bloody.woff2") format("woff2"),
+    url("./fonts/bloody.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#logo {
+  max-width: 100px;
+}
+/*lista desordenada*/
+header nav ul {
+  list-style: none;
+  color: rgb(0, 17, 255);
+  text-align: center;
+}
+
+section.container {
+  display_flex;
+  justify-content: left;
+}
+section {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+.position div {
+  position: absolute;
+  top: 80px;
+  left: 240px
+}
+/*contenido*/
+body {
+  background-color: rgb(104, 11, 11);
+  color: #a5a1a1;
+}
+/*titulo con imagen de fondo*/
+h1 {
+  color: rgb(104, 11, 11);
+  font-family: "bloody";
+  font-size: 4rem;
+  text-align: center;
+  background-image: url(./images/pared-sangre.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5rem 0;
+  font-size: 60px;
+}
+p {
+  color: #a5a1a1;
+  font-size: 1rem;
+}
+/*footer con imagen de fondo*/
+footer nav {
+  list-style: none;
+  text-align: center;
+  background-image: url(./images/pared-sangre.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2rem 0;
+}
+#personajes img {
+  max-width: 100px;
+}
