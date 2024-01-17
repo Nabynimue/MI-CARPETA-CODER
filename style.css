@@ -27,16 +27,20 @@ header nav {
   gap: 0.25rem;
 }
 
-.container-menu li a:hover {
+.nav-link:hover, .active {
   background-color: rgba(122, 122, 122, 0.55);
   color: black;
 }
 
-.container-menu li a {
+.navbar-nav{
+  gap: 0.5rem;
+}
+
+.nav-link {
   text-decoration: none;
   background-color: rgba(000, 000, 000, 0.55);
   padding: 0.5rem 0.75rem;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 5px 20px;
   color: red;
 }
