@@ -14,30 +14,44 @@
   font-display: swap;
 }
 
-#logo {
-  max-width: 100px;
+header nav {
+  display: flex;
 }
 /*lista desordenada*/
-header nav ul {
+.container-menu {
   list-style: none;
   color: rgb(0, 17, 255);
-  text-align: center;
+  text-align: left;
+  display: flex;
+  align-self: center;
+  gap: 0.25rem;
 }
 
-section.container {
-  display_flex;
-  justify-content: left;
+.container-menu li a:hover {
+  background-color: rgba(122, 122, 122, 0.55);
+  color: black;
 }
-section {
+
+.container-menu li a {
+  text-decoration: none;
+  background-color: rgba(000, 000, 000, 0.55);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid black;
+  border-radius: 5px 20px;
+  color: red;
+}
+
+#logo {
+  max-width: 150px;
+}
+.position-sticky {
+  position: sticky;
+}
+.container {
   display: flex;
-  align-items: center;
-  height: 300px;
+  justify-content: space-between;
 }
-.position div {
-  position: absolute;
-  top: 80px;
-  left: 240px
-}
+
 /*contenido*/
 body {
   background-color: rgb(104, 11, 11);
@@ -59,6 +73,11 @@ p {
   color: #a5a1a1;
   font-size: 1rem;
 }
+.franky {
+  width: 400px;
+  height: 300px;
+}
+
 /*footer con imagen de fondo*/
 footer nav {
   list-style: none;
