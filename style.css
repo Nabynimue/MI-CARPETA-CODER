@@ -1,172 +1,178 @@
 /* reset*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* tipo de letra */
 @font-face {
-    font-family: "bloody";
-    src: url("./fonts/bloody.woff2") format("woff2"),
-        url("./fonts/bloody.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "bloody";
+  src: url("./fonts/bloody.woff2") format("woff2"),
+    url("./fonts/bloody.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 header nav {
-    display: flex;
+  display: flex;
 }
 /*lista desordenada*/
 .container-menu {
-    list-style: none;
-    color: rgb(0, 17, 255);
-    text-align: left;
-    display: flex;
-    align-self: center;
-    gap: 0.25rem;
+  list-style: none;
+  color: rgb(0, 17, 255);
+  text-align: left;
+  display: flex;
+  align-self: center;
+  gap: 0.25rem;
 }
 
 .nav-link:hover,
 .active {
-    background-color: rgb(126, 30, 30);
-    color: black;
+  background-color: rgb(126, 30, 30);
+  color: black;
 }
 
 .navbar-nav {
-    gap: 0.5rem;
+  gap: 0.5rem;
 }
 
 .nav-link {
-    text-decoration: none;
-    background-color: rgba(000, 000, 000, 0.55);
-    padding: 0.5rem 0.75rem;
-    border: 1px solid #000000;
-    border-radius: 5px 20px;
-    color: rgb(168, 76, 76);
+  text-decoration: none;
+  background-color: rgba(000, 000, 000, 0.55);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #000000;
+  border-radius: 5px 20px;
+  color: rgb(168, 76, 76);
 }
 
 #logo {
-    max-width: 150px;
+  max-width: 150px;
 }
 .position-sticky {
-    position: sticky;
+  position: sticky;
 }
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*contenido*/
 body {
-    background-color: rgb(104, 11, 11);
-    color: #a5a1a1;
+  background-color: rgb(104, 11, 11);
+  color: #a5a1a1;
 }
 
 /*titulo con imagen de fondo*/
 .banner {
-    background-image: url(./images/pared-sangre.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin-bottom: 1rem;
+  background-image: url(./images/pared-sangre.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 1rem;
 }
 h1 {
-    color: rgb(134, 24, 24);
-    font-family: "bloody";
-    font-size: 4rem;
-    text-align: center;
-    padding: 5rem 0;
-    font-size: 60px;
+  color: rgb(134, 24, 24);
+  font-family: "bloody";
+  font-size: 4rem;
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 60px;
 }
 p {
-    color: #a5a1a1;
-    font-size: 1.15rem;
+  color: #a5a1a1;
+  font-size: 1.15rem;
 }
 
 .imagebox {
-    display: flex;
-    gap: 1rem;
-    margin: 1rem 0.5rem;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0.5rem;
 }
 
 .interbanner {
-    background-color: black;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 4rem 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 4rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .interbanner h3 {
-    text-align: center;
+  text-align: center;
 }
 .interbanner p {
-    max-width: 1320px;
-    text-align: center;
+  max-width: 1320px;
+  text-align: center;
 }
 
 .titulo-galeria {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .galeria {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
 .autores {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 /*footer con imagen de fondo*/
 .social {
-    background-image: url(./images/pared-sangre.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+  background-image: url(./images/pared-sangre.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
 }
 .social a {
-    color: rgb(168, 76, 76);
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 0 1rem;
+  color: rgb(168, 76, 76);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0 1rem;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.65);
-    padding: 1rem;
-    border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 #personajes img {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 .copyright {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright p {
-    font-size: 0.8rem;
-    margin: 0;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.galeria-libros {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-    .imagebox {
-        flex-direction: column;
-    }
-    .galeria {
-        grid-template-columns: repeat(1, minmax(250px, 1fr));
-    }
+  .imagebox {
+    flex-direction: column;
+  }
+  .galeria,
+  .galeria-libros {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
 }
